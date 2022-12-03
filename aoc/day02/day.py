@@ -1,5 +1,5 @@
 from typing import List, Tuple
-from . import tool
+from ..tool import tool
 
 
 VALUES = dict(A=1, B=2, C=3, X=1, Y=2, Z=3)

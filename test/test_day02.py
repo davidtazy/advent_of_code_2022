@@ -1,5 +1,5 @@
-from day02 import tool
-from day02.day import score, part1, fix_line, part2
+import aoc.tool.tool as tool
+from aoc.day02.day import score, part1, fix_line, part2
 
 DATASET = "test/data/day02.bin"
 

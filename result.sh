@@ -1,4 +1,4 @@
 #! /bin/bash
 
-python -m day01
-python -m day02
+python -m aoc.day01
+python -m aoc.day02

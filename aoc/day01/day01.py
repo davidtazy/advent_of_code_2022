@@ -1,5 +1,5 @@
 from typing import List, Tuple
-from . import tool
+from ..tool import tool
 
 
 def group(datas: str) -> List[str]:
