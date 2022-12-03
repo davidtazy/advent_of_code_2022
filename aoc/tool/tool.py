@@ -20,4 +20,7 @@ def read_dataset_lines(dir: str, filename: str) -> str:
         raise ValueError(f"{file} does not exists")
 
     with open(file, "r") as f:
-        return f.readlines()
+
+        lines = f.readlines()
+        # remove line feeds
+        return list(map(lambda line: line.rstrip(), lines))
