@@ -1,4 +1,3 @@
-import aoc.tool.tool as tool
 from aoc.day03.day import get_duplicate, get_priority, part1, get_dup3, part2
 
 DATASET = "test/data/day03.bin"
