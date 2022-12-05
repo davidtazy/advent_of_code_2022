@@ -21,6 +21,6 @@ def read_dataset_lines(dir: str, filename: str) -> str:
 
     with open(file, "r") as f:
 
-        lines = f.readlines()
+        content = f.read()
         # remove line feeds
-        return list(map(lambda line: line.rstrip(), lines))
+        return content.split("\n")
