@@ -1,4 +1,13 @@
-from aoc.day05.day import part1,  part2, get_crates, get_stacks_lines, get_moves, get_stacks, parse, move
+from aoc.day05.day import (
+    part1,
+    part2,
+    get_crates,
+    get_stacks_lines,
+    get_moves,
+    get_stacks,
+    parse,
+    move,
+)
 from aoc.tool import tool
 
 DATASET = "test/data/day05.bin"

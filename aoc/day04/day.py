@@ -22,8 +22,8 @@ def contains(line: List[int]) -> bool:
     a = line[0:2]
     b = line[2:4]
 
-    a = set(range(a[0], a[1]+1))
-    b = set(range(b[0], b[1]+1))
+    a = set(range(a[0], a[1] + 1))
+    b = set(range(b[0], b[1] + 1))
 
     x = a.intersection(b)
 
@@ -35,8 +35,8 @@ def overlap(line: List[int]) -> bool:
     a = line[0:2]
     b = line[2:4]
 
-    a = set(range(a[0], a[1]+1))
-    b = set(range(b[0], b[1]+1))
+    a = set(range(a[0], a[1] + 1))
+    b = set(range(b[0], b[1] + 1))
 
     x = a.intersection(b)
 

@@ -1,4 +1,4 @@
-from aoc.day04.day import part1,  part2, get_inputs, contains, overlap
+from aoc.day04.day import part1, part2, get_inputs, contains, overlap
 
 DATASET = "test/data/day04.bin"
 

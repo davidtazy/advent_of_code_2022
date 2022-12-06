@@ -1,4 +1,11 @@
-from aoc.day01.day01 import group, sum_ints, group_and_sum, find_max, answer_of_the_day, part2
+from aoc.day01.day01 import (
+    group,
+    sum_ints,
+    group_and_sum,
+    find_max,
+    answer_of_the_day,
+    part2,
+)
 import aoc.tool.tool as tool
 
 

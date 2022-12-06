@@ -3,7 +3,7 @@ from ..tool import tool
 
 
 def get_crates(line: str) -> str:
-    return line[1:len(line):4]
+    return line[1 : len(line) : 4]
 
 
 def get_stacks_lines(lines: List[str]):
@@ -23,7 +23,7 @@ def get_stacks(lines: List[str]) -> List[List[str]]:
 
     for line in reversed(lines):
         for index, char in enumerate(line):
-            if char != ' ':
+            if char != " ":
                 stacks[index].append(char)
 
     return stacks

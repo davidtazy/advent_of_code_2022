@@ -4,7 +4,7 @@ from ..tool import tool
 
 def get_duplicate(line: str) -> str:
 
-    middle_index = len(line)//2
+    middle_index = len(line) // 2
     first_half = set(line[:middle_index])
     second_half = set(line[middle_index:])
 
@@ -45,7 +45,7 @@ def part2(dir: str, file: str) -> int:
     ret = []
     for index in range(0, len(lines), 3):
 
-        lll = lines[index:index+3]
+        lll = lines[index : index + 3]
         ret.append(get_dup3(lll))
 
     ret = list(map(get_priority, ret))
