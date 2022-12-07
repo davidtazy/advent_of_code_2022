@@ -4,7 +4,7 @@ from ..tool import tool
 
 def start_of_msg(msg: str, length: int) -> int:
     for index in range(len(msg) - length):
-        sub = msg[index: index + length]
+        sub = msg[index : index + length]
         if len(set(sub)) == length:
             return index + length
     raise ValueError(" start of msg not found")
