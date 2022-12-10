@@ -9,3 +9,4 @@ python -m aoc.day06
 python -m aoc.day07
 python -m aoc.day08
 python -m aoc.day09
+python -m aoc.day10
